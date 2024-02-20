@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: 50%;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.noidung1 {
+    width: 50%;
+    height: 100%;
+    background: #e8e8e8;
+    float: left;
+    font-size: 20px;
+}
+
+.noidung2 {
+    width: 50%;
+    height: 100%;
+    background: #9a7373;
+    float: right;
+    font-size: 20px;
+}
+
+.center {
+    text-align: right;
+}
