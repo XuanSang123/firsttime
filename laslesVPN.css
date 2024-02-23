@@ -1,0 +1,188 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.header1 {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.header2 {
+    display: flex;
+    align-items: baseline
+}
+
+.header3 {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.Signin {
+    background-color: transparent;
+    border: none;
+}
+
+.Signin:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    color: red;
+
+}
+
+.Signup {
+    margin-right: 50px;
+    border-radius: 15px;
+    border: solid 0.5px red;
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+.center-left {
+    width: 555px;
+}
+
+.img {
+    width: 612px;
+}
+
+.button {
+    border-radius: 30px;
+    border: solid 1 red;
+    padding: 15px 50px 15px 50px;
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.p1 {
+    width: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+}
+
+.users1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+    color: red;
+}
+
+.header4 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 20px;
+}
+
+.p2 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.icon1 {
+    color: green;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.div1 {
+    margin-top: 10px;
+}
+
+.h4 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.p3 {
+    text-align: center;
+    margin-left: 36%;
+    margin-right: 36%;
+    font-size: 15px;
+}
+
+.p4 {
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.check {
+    color: green;
+    margin-right: 20px;
+}
+
+.border1 {
+    text-align: center;
+    border: solid 1px gray;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.select {
+    color: red;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    border: solid 2px red;
+    background-color: white;
+    font-weight: 700;
+}
+
+.select1 {
+    margin-top: 10px;
+}
+
+.free {
+    padding-top: 20px;
+    display: flex;
+}
+
+.flower {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    gap: 20px
+}
+
+li {
+    list-style: none;
+
+}
