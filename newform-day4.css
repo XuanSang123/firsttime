@@ -1,0 +1,49 @@
+.left {
+    padding-bottom: 10px;
+}
+
+.right {
+    padding-bottom: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 243, 241);
+}
+
+input {
+    padding: 10px 150px 10px 10px;
+    border-radius: 5px;
+    border: solid white;
+    margin-top: 10px;
+}
+
+.checkbox {
+    padding-top: 20px;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 25px 25px 25px 25px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.adjust-header {
+    display: flex;
+    gap: 30px;
+}
+
+form {
+    width: 700px;
+}
+
+.select {
+    padding: 10px 205px 10px 10px;
+    border-radius: 5px;
+    border: solid white;
+    margin-top: 10px;
+    color: gray;
+}
