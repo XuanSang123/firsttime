@@ -1,0 +1,97 @@
+/* .inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+} */
+/* get font-> 'font' google font */
+/* @font-face embed fonts */
+@font-face {
+  font-family: Dmitry Rastvortsev - KyivType Sans Heavy3;
+  src: url(fonts/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ Heavy3.otf);
+}
+.background {
+  background-image: url("6.png");
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  background-color: black;
+  /* display: flex;
+  justify-content: space-between; */
+  /* padding: 56px 75px 0; */
+  /*  */
+}
+li {
+  color: white;
+  list-style: none;
+  font-family: monospace;
+  font-size: 20px;
+}
+.li1 {
+  display: flex;
+  gap: 57px;
+}
+.text {
+  text-align: center;
+  font-size: 500px;
+}
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 75px 0;
+}
+h2 {
+  font-size: 90px;
+  font-family: Dmitry Rastvortsev - KyivType Sans Heavy3;
+  color: white;
+}
+span {
+  font-family: Dmitry Rastvortsev - KyivType Sans Heavy3;
+  color: white;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  font-family: inter;
+  color: #ffdbbb;
+}
+button {
+  font-size: 30px;
+  padding: 11px 70px 11px 70px;
+  border-radius: 42px;
+  background-color: #728bad;
+  border: solid 0 aqua;
+  color: white;
+  font-family: inter;
+  font-weight: 700;
+}
+.page {
+  text-align: center;
+}
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
