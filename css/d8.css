@@ -1,0 +1,142 @@
+/* .inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+} */
+/* get font-> 'font' google font */
+/* @font-face embed fonts */
+@font-face {
+  font-family: Dmitry Rastvortsev - KyivType Sans Heavy3;
+  src: url(fonts/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ Heavy3.otf);
+}
+.background {
+  background-image: url("/images/6.png");
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  background-color: black;
+  /* display: flex;
+    justify-content: space-between; */
+  /* padding: 56px 75px 0; */
+  /*  */
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.wrapper {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  color: white;
+  list-style: none;
+  font-family: monospace;
+  font-size: 20px;
+}
+.li1 {
+  display: flex;
+  gap: 57px;
+}
+.text {
+  text-align: center;
+  font-size: 500px;
+}
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 75px 0;
+}
+.container {
+  background-color: #1e0c06;
+  width: 1245px;
+  margin-left: 195px;
+  border-radius: 43px 0 0 43px;
+}
+.container-solid-wood {
+  font-size: 90px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+.container-solid-oak {
+  font-size: 30px;
+  color: white;
+  padding-top: 22px;
+}
+.container-solid-button {
+  font-size: 30px;
+  width: 225px;
+  height: 58px;
+  border-radius: 42px;
+  font-weight: 650;
+}
+.container-solid {
+  border-right: solid 1px white;
+}
+.container-dislay {
+  display: flex;
+}
+.container-border {
+  width: 620px;
+  height: 714px;
+  padding-top: 90px;
+  padding-left: 50px;
+}
+.container-image {
+  display: flex;
+  flex-direction: column;
+  gap: 204px;
+}
+.container-image1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 46px;
+}
+.container-solid-button-order {
+  padding-top: 58px;
+}
+.container-thewood-border {
+  width: 900px;
+  height: 230px;
+}
+.container-thewood-border-text {
+  font-size: 90px;
+  text-align: center;
+  color: white;
+  margin-top: 414px;
+  margin-left: 243px;
+}
+.container-thewood-icon {
+  display: flex;
+  gap: 249px;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding-top: 125px;
+}
+.container-thewood-icon-text {
+  color: white;
+  /* padding-top: 38px;
+  padding-bottom: 38px; */
+}
+.container-thewood-icon-oak {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+.container-thewood-icon-text-O {
+  color: white;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+#WORK {
+  color: white;
+}
