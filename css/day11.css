@@ -17,7 +17,7 @@
   /* height: 100vh; */
   background-color: black;
   /* display: flex;
-    justify-content: space-between; */
+      justify-content: space-between; */
   /* padding: 56px 75px 0; */
   /*  */
 }
@@ -125,7 +125,7 @@ h2 {
 .container-thewood-icon-text {
   color: white;
   /* padding-top: 38px;
-  padding-bottom: 38px; */
+    padding-bottom: 38px; */
 }
 .container-thewood-icon-oak {
   display: flex;
@@ -139,4 +139,13 @@ h2 {
 }
 #WORK {
   color: white;
+}
+.list-option {
+  width: 224px;
+  height: 208px;
+  border-radius: 4px;
+  background-color: #000000;
+}
+.list-option-flex {
+  display: flex;
 }
